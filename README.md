@@ -1,7 +1,8 @@
 # Realtek UAD Edit >
+
 ### Motivation >
-Legacy Support ~
-Force Updates ~
+Legacy Support/Force Updates ~
+
 ### Installation >
 Remove Realtek Audio Driver and all packages
 Unpack archive(Zstandard)
