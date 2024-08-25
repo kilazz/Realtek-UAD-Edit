@@ -17,8 +17,8 @@
 - #### Place only one HDXRTKExt_ and Folder
   > Dolby | DTS | Nahimic >
   > `HDXRTKExt_DOLBY_PC.inf` | `HDXRTKExt_XPERI4_PC.inf` | `HDXRTKExt_AVO_PC.inf`
-- Open Driver\UAD64\Realtek\ `ExtRtk_9718.1.7z` and place `Ext .inf` into Driver\UAD64\Realtek\ExtRtk_9718.1\
-- Open Driver\UAD64\Realtek\ `ThirdParty.7z` and place `Folder` in Driver\UAD64\Realtek\ThirdParty\
+- Open Driver\UAD64\Realtek\ `ExtRtk_9718.1.7z` and place `HDXRTKExt_ .inf` in Driver\UAD64\Realtek\ExtRtk_9718.1\
+- Open Driver\UAD64\Realtek\ `ThirdParty.7z` and place `OEM Folder` in Driver\UAD64\Realtek\ThirdParty\
 - Run _CertTest/CertTest.bat(Admin)
 - Installation via Driver/Setup.exe or Install.bat
 - Restart PC
