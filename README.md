@@ -1,20 +1,20 @@
-# Realtek UAD Edit Generic/OEM
-### Motivation >
+## Realtek UAD Edit Generic/OEM
+#### Motivation >
 - For yourself ~
 - Legacy support ~
 - Forced upgrade ~
 - Support OEM Ext Dolby/DTS/Nahimic ~
-### Compatibility >
+#### Compatibility >
 - Windows 10/11 18363/26090+
 - Who knows
-### Installation Generic >
+#### Installation Generic >
 - Uninstall Realtek Audio Driver and all packages, check via [Rapr][DriverStoreExplorer]
 - Restart PC
 - Unzip the .7z(Zstandard) archive
 - Run _CertTest/CertTest.bat(Admin)
 - Installation using Driver/Setup.exe or Install.bat
 - Restart PC
-### Installation OEM >
+#### Installation OEM >
 - Uninstall Realtek Audio Driver and all packages, check via [Rapr][DriverStoreExplorer]
 - Restart PC
 - Unzip the .7z(Zstandard) archive
