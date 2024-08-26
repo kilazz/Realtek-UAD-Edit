@@ -3,7 +3,7 @@
 - For yourself ~
 - Legacy support ~
 - Forced upgrade ~
-- Support OEM Ext Dolby/DTS/Nahimic
+- Support OEM Ext Dolby/DTS/Nahimic ~
 ### Compatibility >
 - Windows 10/11 18363/26090+
 - Who knows
