@@ -8,14 +8,14 @@
 - Windows 10/11 18363/26090+
 - Who knows
 ### Installation Generic >
-- Uninstall Realtek Audio Driver and all packages, check via Rapr https://github.com/lostindark/DriverStoreExplorer
+- Uninstall Realtek Audio Driver and all packages, check via [Rapr][DriverStoreExplorer]
 - Restart PC
 - Unzip the .7z(Zstandard) archive
 - Run _CertTest/CertTest.bat(Admin)
 - Installation using Driver/Setup.exe or Install.bat
 - Restart PC
 ### Installation OEM >
-- Uninstall Realtek Audio Driver and all packages, check via Rapr https://github.com/lostindark/DriverStoreExplorer
+- Uninstall Realtek Audio Driver and all packages, check via [Rapr][DriverStoreExplorer]
 - Restart PC
 - Unzip the .7z(Zstandard) archive
 - Delete Driver\UAD64\Realtek\ExtRtk_9718.1\ `HDXRTKExt_RTK_PC.inf`
@@ -27,3 +27,5 @@
 - Run _CertTest/CertTest.bat(Admin)
 - Installation using Driver/Setup.exe or Install.bat
 - Restart PC
+
+[DriverStoreExplorer]: https://github.com/lostindark/DriverStoreExplorer
