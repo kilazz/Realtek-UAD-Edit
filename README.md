@@ -17,7 +17,7 @@
 - Restart PC
 - Unzip the archive .7z(Zstandard)
 - Remove Driver\UAD64\Realtek\ExtRtk_9718.1\ `HDXRTKExt_RTK_PC.inf`
-- #### Place only one HDXRTKExt_ and Folder
+- #### Place only one HDXRTKExt_ and one folder
   > Dolby | DTS | Nahimic >
   > `HDXRTKExt_DOLBY_PC.inf` | `HDXRTKExt_XPERI4_PC.inf` | `HDXRTKExt_AVO_PC.inf`
 - Open Driver\UAD64\Realtek\ `ExtRtk_9718.1.7z` and place `HDXRTKExt_ .inf` in Driver\UAD64\Realtek\ExtRtk_9718.1\
