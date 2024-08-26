@@ -20,8 +20,7 @@
 - Unzip the .7z(Zstandard) archive
 - Delete Driver\UAD64\Realtek\ExtRtk_9718.1\ `HDXRTKExt_RTK_PC.inf`
 - #### Place only one HDXRTKExt_ and one folder
-  > Dolby | DTS | Nahimic >
-  > `HDXRTKExt_DOLBY_PC.inf` | `HDXRTKExt_XPERI4_PC.inf` | `HDXRTKExt_AVO_PC.inf`
+  > Dolby | DTS | Nahimic > `HDXRTKExt_DOLBY_PC.inf` | `HDXRTKExt_XPERI4_PC.inf` | `HDXRTKExt_AVO_PC.inf`
 - Open Driver\UAD64\Realtek\ `ExtRtk_9718.1.7z` and place `HDXRTKExt_ .inf` in Driver\UAD64\Realtek\ExtRtk_9718.1\
 - Open Driver\UAD64\Realtek\ `ThirdParty.7z` and place `OEM Folder` in Driver\UAD64\Realtek\ThirdParty\
 - Run _CertTest/CertTest.bat(Admin)
