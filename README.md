@@ -3,7 +3,7 @@
 - For yourself ~
 - Legacy Support ~
 - Forced upgrade ~
-- Support OEM Ext Dolby/DTS/Nahimic etc. ~
+- Support OEM Ext Dolby/DTS/Nahimic etc ~
 ### Compatibility >
 - Windows 10/11 18363/26090+
 - Who knows
@@ -18,7 +18,7 @@
 - Uninstall Realtek Audio Driver and all packages, check via Rapr https://github.com/lostindark/DriverStoreExplorer
 - Restart PC
 - Unzip the .7z(Zstandard) archive
-- Delete Driver\UAD64\Realtek\ExtRtk_9718.1\ `HDXRTKExt_RTK_PC.inf`.
+- Delete Driver\UAD64\Realtek\ExtRtk_9718.1\ `HDXRTKExt_RTK_PC.inf`
 - #### Place only one HDXRTKExt_ and one folder
   > Dolby | DTS | Nahimic >
   > `HDXRTKExt_DOLBY_PC.inf` | `HDXRTKExt_XPERI4_PC.inf` | `HDXRTKExt_AVO_PC.inf`
