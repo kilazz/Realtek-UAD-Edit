@@ -4,8 +4,8 @@
 - Legacy Support/Force Updates ~
 - Support OEM Ext Dolby/DTS/Nahimic etc ~
 ### Compatibility >
-- who knows
 - Windows 10/11 18363/26090+
+- who knows
 ### Installation Generic >
 - Remove Realtek Audio Driver and all packages, check via Rapr https://github.com/lostindark/DriverStoreExplorer
 - Restart PC
