@@ -1,5 +1,6 @@
 # Realtek UAD Edit Generic/OEM
 ### Motivation >
+- for myself ~
 - Legacy Support/Force Updates ~
 - Support OEM Ext Dolby/DTS/Nahimic etc ~
 ### Installation Generic >
