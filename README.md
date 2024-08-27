@@ -1,8 +1,8 @@
 ## Realtek UAD Edit Generic/OEM
 #### Motivation >
-- For yourself ~
-- Legacy support ~
-- Forced upgrade ~
+- For yourself
+- Legacy support
+- Forced upgrade
 - Support OEM Ext Dolby/DTS/Nahimic ~
 #### Compatibility >
 - Windows 10/11 x64 18363/26090+
