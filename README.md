@@ -21,5 +21,7 @@
 - Run _CertTest/`CertTest.bat`
 - Installation using Driver/`Setup.exe` or `Install.bat`
 - Restart PC
+#### Problems >
+- DTS applications not working properly (Legacy Service) ~
 
 [DriverStoreExplorer]: https://github.com/lostindark/DriverStoreExplorer
