@@ -1,7 +1,6 @@
 ## Realtek UAD Edit Generic/OEM
 #### Compatibility >
 - Windows 10/11 x64 18363/26090+
-- FF00 ~
 #### Installation Generic >
 - Unzip the .7z(Zstandard) archive
 - Run _CertTest/`CertTest.bat`
