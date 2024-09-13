@@ -1,6 +1,6 @@
 ## Realtek UAD Edit Generic/OEM
 #### Compatibility >
-- Windows 10/11 x64 18363/26100+
+- Windows 10/11 x64 19041/26100+
 #### Removal >
 - Uninstall Realtek Audio Driver and all packages, check via [Rapr][DriverStoreExplorer]
 - Restart PC
