@@ -2,7 +2,7 @@
 #### Compatibility >
 - Windows 10/11 x64 19041/26100+
 #### Removal >
-- Uninstall Realtek Audio Driver (UAD/HDA) and all packages, check via [Rapr][DriverStoreExplorer]
+- Uninstall Realtek Audio Driver and all packages, check via [Rapr][DriverStoreExplorer]
 - Restart PC
 #### Installation Generic >
 - Unzip the .7z(Zstandard) archive
