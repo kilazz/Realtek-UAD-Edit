@@ -19,6 +19,6 @@
 - Installation using Driver/`Setup.exe` or `Install.bat`
 - Restart PC
 #### Problems >
-- DTS applications not working properly (Legacy Service) ~
+- DTS applications not working properly ~
 
 [DriverStoreExplorer]: https://github.com/lostindark/DriverStoreExplorer
