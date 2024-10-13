@@ -13,12 +13,14 @@
 - Unzip the archive .7z(Zstandard)
 - Delete > Driver\UAD64\Realtek\ExtRtk_XXXX.X/>
 `HDXRTKExt_RTK_PC.inf`
-- Open   > Driver\UAD64\Realtek\ `ExtRtk_XXXX.X.7z` > Place `Only one HDXRTKExt_XXXXXXXXXXX.inf` > Driver\UAD64\Realtek\ExtRtk_XXXX.X/>
+- Open   > Driver\UAD64\Realtek\ `ExtRtk_XXXX.X.7z` >
+- Copy   > `Only one HDXRTKExt_XXXXXXXXXXX.inf` > Driver\UAD64\Realtek\ExtRtk_XXXX.X/>
 `HDXRTKExt_DOLBY_PC.inf`
 `HDXRTKExt_XPERI4_PC.inf`
 `HDXRTKExt_AVO4_PC.inf`
 `HDXRTKExt_AVO_PC.inf`
-- Open   > Driver\UAD64\Realtek\ `ThirdParty.7z` > Place `Only one folder` > Driver\UAD64\Realtek\ThirdParty/>
+- Open   > Driver\UAD64\Realtek\ `ThirdParty.7z` >
+- Copy   > `Only one folder` > Driver\UAD64\Realtek\ThirdParty/>
 `Dolby`
 `DTS`
 `A-Volute_Nh`
