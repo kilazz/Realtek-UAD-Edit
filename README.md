@@ -14,10 +14,9 @@
 - Delete > Driver\UAD64\Realtek\ExtRtk_XXXX.X\ `HDXRTKExt_RTK_PC.inf`
 - Open   > `ExtRtk_XXXX.X.7z`|`ThirdParty.7z` >
 - Copy   > `Only one HDXRTKExt_XXXXXXXXX.inf`|`Only one folder` > `Driver\UAD64\Realtek\ExtRtk_XXXX.X\`|`Driver\UAD64\ThirdParty\` >
-  - `HDXRTKExt_DOLBY_PC.inf  | Dolby        > DolbyAtmos`
-  - `HDXRTKExt_XPERI4_PC.inf | DTS          > DTSXUltra`
-  - `HDXRTKExt_AVO4_PC.inf   | A-Volute_Nh  > Nahimic`
-  - `HDXRTKExt_AVO_PC.inf    | A-Volute_SS3 > SonicStudio3`
+  - `HDXRTKExt_DOLBY_PC.inf  | Dolby    > DolbyAtmos`
+  - `HDXRTKExt_XPERI4_PC.inf | DTS      > DTSXUltra`
+  - `HDXRTKExt_AVO4_PC.inf   | A-Volute > Nahimic`
 - Run _CertTest/`CertTest.bat`
 - Installation using Driver/`Setup.exe` or `Install.bat`
 - Restart PC
