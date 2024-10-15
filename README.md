@@ -11,8 +11,7 @@
 - Restart PC
 #### Installation OEM >
 - Unzip the archive .7z(Zstandard)
-- Delete > Driver\UAD64\Realtek\ExtRtk_XXXX.X\ >
-  - `HDXRTKExt_RTK_PC.inf                   > Generic`
+- Delete > Driver\UAD64\Realtek\ExtRtk_XXXX.X\ `HDXRTKExt_RTK_PC.inf`
 - Open   > `ExtRtk_XXXX.X.7z`|`ThirdParty.7z` >
 - Copy   > `Only one HDXRTKExt_XXXXXXXXX.inf`|`Only one folder` > `Driver\UAD64\Realtek\ExtRtk_XXXX.X\`|`Driver\UAD64\ThirdParty\` >
   - `HDXRTKExt_DOLBY_PC.inf  | Dolby        > DolbyAtmos`
