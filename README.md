@@ -4,21 +4,23 @@
 #### Removal >
 - Uninstall Realtek Audio Driver and all packages, check via [Rapr][DriverStoreExplorer]
 - Restart PC
-#### Installation Generic >
+#### Installation Generic/OEM >
 - Unzip the archive .7z(Zstandard)
 - Run _CertTest/`CertTest.bat`
 - Installation using Driver/`Setup.exe` or `Install.bat`
 - Restart PC
-#### Installation OEM >
-- Unzip the archive .7z(Zstandard)
-- Delete > Driver\UAD64\Realtek\ExtRtk_XXXX.X\ `HDXRTKExt_RTK_PC.inf`
-- Open   > `ExtRtk_XXXX.X.7z`|`ThirdParty.7z` >
-- Copy   > `Only one HDXRTKExt_XXXXXXXXX.inf`|`Only one folder` > `Driver\UAD64\Realtek\ExtRtk_XXXX.X\`|`Driver\UAD64\ThirdParty\` >
+#### OEM >
+- Delete    > Driver\UAD64\Realtek\ExtRtk_XXXX.X\ `HDXRTKExt_RTK_PC.inf`
+- Open/Copy > `ExtRtk_XXXX.X.7z`|`ThirdParty.7z` > `HDXRTKExt_XXXXXXXXX.inf`|`OEM folder` >
+- `Driver\UAD64\Realtek\ExtRtk_XXXX.X\`|`Driver\UAD64\ThirdParty\` >
+  - `HDXRTKExt_RTK_PC.inf    |          > Generic`
   - `HDXRTKExt_DOLBY_PC.inf  | Dolby    > DolbyAtmos`
   - `HDXRTKExt_XPERI4_PC.inf | DTS      > DTSXUltra`
   - `HDXRTKExt_AVO4_PC.inf   | A-Volute > Nahimic`
-- Run _CertTest/`CertTest.bat`
-- Installation using Driver/`Setup.exe` or `Install.bat`
-- Restart PC
+#### ~ SPDIF 5.1 DDL/DTS (Legacy) >
+- Delete    > Driver\UAD64\Realtek\ExtRtk_XXXX.X\ `HDXRTKExt_RTK_PC.inf`
+- Open/Copy > `ExtRtk_XXXX.X.7z` > Driver\UAD64\Realtek\ExtRtk_XXXX.X\ `HDXRTKExt_XXXXXXXXX_APO1UL.inf`
+- Delete    > Driver\UAD64\Realtek\ `RealtekUAPO2_XXXX`
+- Open/Copy > `RealtekAPO_XXXX_ULock.7z` > Driver\UAD64\Realtek\ `RealtekAPO_XXXX_ULock`
 
 [DriverStoreExplorer]: https://github.com/lostindark/DriverStoreExplorer
