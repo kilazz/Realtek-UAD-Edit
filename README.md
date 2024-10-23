@@ -19,7 +19,7 @@
   - `HDXRTKExt_AVO4_PC.inf   | A-Volute > Nahimic`
 #### ~ SPDIF 5.1 DDL/DTS (Legacy) >
 - Delete    > Driver\UAD64\Realtek\ExtRtk_XXXX.X\ `HDXRTKExt_RTK_PC.inf`
-- Open/Copy > `ExtRtk_XXXX.X.7z` > Driver\UAD64\Realtek\ExtRtk_XXXX.X\ `HDXRTKExt_XXXXXXXXX_APO1.inf`
+- Open/Copy > `ExtRtk_XXXX.X.7z` > Driver\UAD64\Realtek\ExtRtk_XXXX.X\ `HDXRTKExt_APO1_XXXXXXXXX.inf`
 - Delete    > Driver\UAD64\Realtek\ `RealtekUAPO2_XXXX`
 - Open/Copy > `RealtekAPO_XXXX_ULock.7z` > Driver\UAD64\Realtek\ `RealtekAPO_XXXX_ULock`
 
