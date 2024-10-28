@@ -5,7 +5,6 @@
 - Uninstall Realtek Audio Driver and all packages, check via [Rapr][DriverStoreExplorer]
 - Restart PC
 #### Installation Generic/OEM >
-- Unzip the archive .7z(Zstandard)
 - Run _CertTest/`CertTest.bat`
 - Installation using Driver/`Setup.exe` or `Install.bat`
 - Restart PC
