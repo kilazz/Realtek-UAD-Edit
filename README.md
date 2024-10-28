@@ -6,7 +6,7 @@
 - Restart PC
 #### Installation Generic/OEM >
 - Run _CertTest/`CertTest.bat`
-- Installation using Driver/`Setup.exe` or `Install_inf.cmd`
+- Installation using `Install.cmd` or `Install_inf.cmd`
 - Restart PC
 #### OEM >
 - Delete    > Driver\UAD64\Realtek\ExtRtk_XXXX\ `HDXRTKExt_RTK_PC.inf`
