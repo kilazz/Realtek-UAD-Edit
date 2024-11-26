@@ -7,7 +7,7 @@
 #### Installation Generic/OEM >
 - Installation using `Install.cmd` or `Install_inf.cmd`
 - Restart PC
-#### OEM >
+#### Installation OEM >
 - Delete    > Driver\UAD64\Realtek\ExtRtk_XXXX\ `HDXRTKExt_RTK_PC.inf`
 - Open/Copy > `ExtRtk_XXXX.7z`|`ThirdParty.7z` > `HDXRTKExt_XXXXXXXXX.inf`|`OEM folder` >
 - `Driver\UAD64\Realtek\ExtRtk_XXXX\`|`Driver\UAD64\ThirdParty\` >
