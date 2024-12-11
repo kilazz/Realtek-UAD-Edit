@@ -2,6 +2,7 @@
 #### Compatibility >
 - Windows 10 x64 19041+
 - Only desktop motherboards were tested
+- MSFT Proxy APO
 #### Removal >
 - Uninstall Realtek Audio Driver and all packages, check via [Rapr][DriverStoreExplorer]
 - Restart PC
