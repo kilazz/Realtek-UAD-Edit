@@ -1,6 +1,6 @@
 ## Realtek UAD Edit Generic/OEM
 #### Compatibility >
-- Windows 10 x64 19041+
+- Windows 10/11 x64 19041+
 - Only desktop motherboards were tested
 #### Removal >
 - Uninstall Realtek Audio Driver and all packages, check via [Rapr][DriverStoreExplorer]
@@ -16,7 +16,7 @@
   - `HDXRTKExt_DOLBY_PC.inf  | Dolby    > DolbyAtmos`
   - `HDXRTKExt_XPERI4_PC.inf | DTS      > DTSXUltra`
   - `HDXRTKExt_AVO4_PC.inf   | A-Volute > Nahimic`
-#### ~ SPDIF 5.1 DDL/DTS (Legacy) >
+#### Realtek SPDIF DDL/DTS (Legacy) >
 - Delete    > Driver\UAD64\Realtek\ExtRtk_XXXX\ `HDXRTKExt_RTK_PC.inf`
 - Open/Copy > `ExtRtk_XXXX.7z` > Driver\UAD64\Realtek\ExtRtk_XXXX\ `HDXRTKExt_APO1_XXXXXXXXX.inf`
 - Delete    > Driver\UAD64\Realtek\ `RealtekUAPO2_XXXX`
