@@ -16,10 +16,9 @@
   - `HDXRTKExt_DOLBY_PC.inf  | Dolby    > DolbyAtmos`
   - `HDXRTKExt_XPERI4_PC.inf | DTS      > DTSXUltra`
   - `HDXRTKExt_AVO4_PC.inf   | A-Volute > Nahimic`
-#### Realtek SPDIF DDL/DTS (Legacy) >
-- Delete    > Driver\UAD64\Realtek\ExtRtk_XXXX\ `HDXRTKExt_RTK_PC.inf`
+#### Realtek APO1/APO1 Legacy SPDIF DDL/DTS >
+- Delete    > Driver\UAD64\Realtek\ExtRtk_XXXX\ `HDXRTKExt_APO2_RTK_PC.inf`
 - Open/Copy > `ExtRtk_XXXX.7z` > Driver\UAD64\Realtek\ExtRtk_XXXX\ `HDXRTKExt_APO1_XXXXXXXXX.inf`
-- Delete    > Driver\UAD64\Realtek\ `RealtekUAPO2_XXXX`
-- Open/Copy > `RealtekAPO_XXX_unlock.7z` > Driver\UAD64\Realtek\ `RealtekAPO_XXX_unlock`
+- Open/Copy > `RealtekAPO_XXXX.7z`/`RealtekAPO_XXX_unlock.7z` > Driver\UAD64\Realtek\ `RealtekAPO_XXXX.7z`/`RealtekAPO_XXX_unlock`
 
 [DriverStoreExplorer]: https://github.com/lostindark/DriverStoreExplorer
