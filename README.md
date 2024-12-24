@@ -20,6 +20,6 @@
 #### Realtek APO1/APO1 Legacy SPDIF DDL/DTS >
 - Delete    > Driver\UAD64\Realtek\ExtRtk_XXXX\ `HDXRTKExt_APO2_RTK_PC.inf`
 - Open/Copy > `ExtRtk_XXXX.7z` > Driver\UAD64\Realtek\ExtRtk_XXXX\ `HDXRTKExt_APO1_XXXXXXXXX.inf`
-- Open/Copy > `RealtekAPO_XXXX.7z`/`RealtekAPO_XXX_unlock.7z` > Driver\UAD64\Realtek\ `RealtekAPO_XXXX.7z`/`RealtekAPO_XXX_unlock`
+- Open/Copy > `RealtekAPO_XXXX.7z`/`RealtekAPO_XXX_unlock.7z` > Driver\UAD64\Realtek\ `RealtekAPO_XXXX`/`RealtekAPO_XXX_unlock`
 
 [DriverStoreExplorer]: https://github.com/lostindark/DriverStoreExplorer
