@@ -21,6 +21,6 @@
 - Open/Copy > `ExtRtk_XXXX.7z` > Driver\UAD64\Realtek\ExtRtk_XXXX\ `HDXRTKExt_APO1_XXXXXXXXX.inf`
 - Open/Copy > `RealtekAPO_XXXX.7z`/`RealtekAPO_XXX_unlock.7z` > Driver\UAD64\Realtek\ `RealtekAPO_XXXX`/`RealtekAPO_XXX_unlock`
 #### Problems >
-- Need to restart DTS "DtsApo4Service" several times to work ~
+- You may have to restart DTS "DtsApo4Service" a few times to get it working ~
 
 [DriverStoreExplorer]: https://github.com/lostindark/DriverStoreExplorer
