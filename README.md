@@ -18,7 +18,7 @@
 1. **Delete** `HDXRTKExt_RTK_PC.inf` from `Driver\UAD64\Realtek\ExtRtk_XXXX`.
 2. **Extract and Copy:**
    - From `ExtRtk_XXXX.7z`, copy `HDXRTKExt_XXXXXXXXX.inf` to `Driver\UAD64\Realtek\ExtRtk_XXXX`.
-   - From `ThirdParty.7z`, copy the OEM folder to `Driver\UAD64\ThirdParty\`:
+   - From `ThirdParty.7z`, copy the `OEM` folder to `Driver\UAD64\ThirdParty\`:
      - **Generic:** `HDXRTKExt_RTK_PC.inf`
      - **Dolby Atmos:** `HDXRTKExt_DOLBY_PC.inf`
      - **DTS X Ultra:** `HDXRTKExt_XPERI4_PC.inf`
