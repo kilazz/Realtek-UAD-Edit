@@ -25,10 +25,10 @@
      - **Nahimic:** `HDXRTKExt_AVO4_PC.inf`
 
 ### Realtek APO1/APO1 Legacy SPDIF DDL/DTS Setup
-1. **Delete** `HDXRTKExt_APO2_RTK_PC.inf` from `Driver\UAD64\Realtek\ExtRtk_XXXX`.
+1. **Delete:** `HDXRTKExt_APO2_RTK_PC.inf` from `Driver\UAD64\Realtek\ExtRtk_XXXX`.
 2. **Extract and Copy:**
    - **ExtRtk_XXXX.7z:** Copy `HDXRTKExt_APO1_XXXXXXXXX.inf` to `Driver\UAD64\Realtek\ExtRtk_XXXX`.
-   - **RealtekAPO_XXXX.7z/RealtekAPO_XXX_unlock.7z:** Copy files to `Driver\UAD64\Realtek\RealtekAPO_XXXX` or `RealtekAPO_XXX_unlock`.
+   - **RealtekAPO_XXXX.7z/RealtekAPO_XXX_unlock.7z:** Copy folder `RealtekAPO_XXXX` or `RealtekAPO_XXX_unlock` to `Driver\UAD64\Realtek\`.
 
 ## Troubleshooting
 - **DTS Service:** Restart **DtsApo4Service** multiple times if needed after rebooting. ~
