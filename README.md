@@ -1,26 +1,36 @@
-## Realtek UAD Edit Generic/OEM
-#### Compatibility >
-- Windows 10/11 x64 19041+
-- Only desktop motherboards were tested
-#### Removal >
-- Uninstall Realtek Audio Driver and all packages, check via [Rapr][DriverStoreExplorer]
-- Restart PC
-#### Installation Generic/OEM >
-- Installation using `Install.cmd` or `Install_inf.cmd`
-- Restart PC
-#### OEM >
-- Delete    > Driver\UAD64\Realtek\ExtRtk_XXXX\ `HDXRTKExt_RTK_PC.inf`
-- Open/Copy > `ExtRtk_XXXX.7z`|`ThirdParty.7z` > `HDXRTKExt_XXXXXXXXX.inf`|`OEM folder` >
-- `Driver\UAD64\Realtek\ExtRtk_XXXX\`|`Driver\UAD64\ThirdParty\` >
-  - `HDXRTKExt_RTK_PC.inf    |          > Generic`
-  - `HDXRTKExt_DOLBY_PC.inf  | Dolby    > DolbyAtmos`
-  - `HDXRTKExt_XPERI4_PC.inf | DTS      > DTSXUltra`
-  - `HDXRTKExt_AVO4_PC.inf   | A-Volute > Nahimic`
-#### Realtek APO1/APO1 Legacy SPDIF DDL/DTS >
-- Delete    > Driver\UAD64\Realtek\ExtRtk_XXXX\ `HDXRTKExt_APO2_RTK_PC.inf`
-- Open/Copy > `ExtRtk_XXXX.7z` > Driver\UAD64\Realtek\ExtRtk_XXXX\ `HDXRTKExt_APO1_XXXXXXXXX.inf`
-- Open/Copy > `RealtekAPO_XXXX.7z`/`RealtekAPO_XXX_unlock.7z` > Driver\UAD64\Realtek\ `RealtekAPO_XXXX`/`RealtekAPO_XXX_unlock`
-#### Problems >
-- You may need to restart DTS "DtsApo4Service" a few times after rebooting to get it working ~
+# Realtek UAD Edit Generic/OEM
+
+## Compatibility
+- **Supported OS:** Windows 10/11 x64, version 19041 and above
+- **Tested on:** Desktop motherboards only
+
+## Removal Steps
+1. **Uninstall Realtek Audio Driver** and all related packages using [Rapr][DriverStoreExplorer].
+2. **Restart PC:** Reboot your computer.
+
+## Installation Steps
+
+### Generic/OEM Installation
+1. **Run `Install.cmd` or `Install_inf.cmd`.**
+2. **Restart PC:** Reboot your computer.
+
+### OEM-Specific Setup
+1. **Delete** `HDXRTKExt_RTK_PC.inf` from `Driver\UAD64\Realtek\ExtRtk_XXXX`.
+2. **Extract and Copy:**
+   - From `ExtRtk_XXXX.7z`, copy `HDXRTKExt_XXXXXXXXX.inf` to `Driver\UAD64\Realtek\ExtRtk_XXXX`.
+   - From `ThirdParty.7z`, copy the OEM folder to `Driver\UAD64\ThirdParty\`:
+     - **Generic:** `HDXRTKExt_RTK_PC.inf`
+     - **Dolby Atmos:** `HDXRTKExt_DOLBY_PC.inf`
+     - **DTS X Ultra:** `HDXRTKExt_XPERI4_PC.inf`
+     - **Nahimic:** `HDXRTKExt_AVO4_PC.inf`
+
+### Realtek APO1/APO1 Legacy SPDIF DDL/DTS Setup
+1. **Delete** `HDXRTKExt_APO2_RTK_PC.inf` from `Driver\UAD64\Realtek\ExtRtk_XXXX`.
+2. **Extract and Copy:**
+   - From `ExtRtk_XXXX.7z`, copy `HDXRTKExt_APO1_XXXXXXXXX.inf` to `Driver\UAD64\Realtek\ExtRtk_XXXX`.
+   - From `RealtekAPO_XXXX.7z` or `RealtekAPO_XXX_unlock.7z`, copy files to `Driver\UAD64\Realtek\RealtekAPO_XXXX` or `RealtekAPO_XXX_unlock`.
+
+## Troubleshooting
+- **DTS Service:** Restart the **DtsApo4Service** multiple times if needed after rebooting. ~
 
 [DriverStoreExplorer]: https://github.com/lostindark/DriverStoreExplorer
