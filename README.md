@@ -2,7 +2,7 @@
 
 ## Compatibility
 - **OS:** Windows 10/11 x64, version 19041 and above
-- **Tested on:** Desktop motherboards only
+- **Tested on:** Desktop motherboards only ~
 
 ## Removal Steps
 1. **Uninstall:** Realtek Audio Driver and packages using [Rapr][DriverStoreExplorer].
