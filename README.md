@@ -24,7 +24,7 @@
      - **DTS X Ultra:** `HDXRTKExt_XPERI4_PC.inf`/`DTS`
      - **Nahimic:** `HDXRTKExt_AVO4_PC.inf`/`A-Volute`
 
-### Realtek APO1 or APO1 unlocked (Legacy) SPDIF DDL/DTS Setup
+### Realtek APO1 or APO1 unlocked Legacy SPDIF DDL/DTS Setup
 1. **Delete:** `HDXRTKExt_APO2_RTK_PC.inf` from `Driver\UAD64\Realtek\ExtRtk_XXXX`.
 2. **Extract and Copy:**
    - **ExtRtk_XXXX.7z:** Copy `HDXRTKExt_APO1_XXXXXXXXX.inf` to `Driver\UAD64\Realtek\ExtRtk_XXXX`.
