@@ -1,36 +1,36 @@
-## Realtek UAD Edit Generic/OEM
+# Realtek UAD Edit Generic/OEM
 
 ## Compatibility
-- **OS:** Windows 10/11 x64, version 19041 and above
-- **Tested on:** Desktop motherboards only ~
+- **OS:** Windows 10/11 x64, version 19041 and above.
+- **Tested on:** Windows 11 build 27783, A620M GAMING X AX, etc.
 
-## Removal Steps
-1. **Uninstall:** Realtek Audio Driver and packages using [Rapr][DriverStoreExplorer].
+## Removal
+1. **Uninstall:** Remove the Realtek Audio Driver and related packages using [Rapr][DriverStoreExplorer].
 2. **Restart:** Reboot your PC.
 
-## Installation Steps
+## Installation
 
 ### Generic/OEM Installation
-1. **Run:** `Install.cmd` or `Install_inf.cmd`.
+1. **Run:** Execute `Install.cmd` or `Install_inf.cmd`.
 2. **Restart:** Reboot your PC.
 
-### OEM-Specific Setup
-1. **Delete:** `HDXRTKExt_RTK_PC.inf` from `Driver\UAD64\Realtek\ExtRtk_XXXX`.
+### OEM-Specific Installation
+1. **Delete:** Remove `HDXRTKExt_RTK_PC.inf` from `Driver\UAD64\Realtek\ExtRtk_XXXX`.
 2. **Extract and Copy:**
-   - **ExtRtk_XXXX.7z:** Copy `HDXRTKExt_XXXXXXXXX.inf` to `Driver\UAD64\Realtek\ExtRtk_XXXX`.
-   - **ThirdParty.7z:** Copy `OEM` folder to `Driver\UAD64\ThirdParty\`:
+   - From **ExtRtk_XXXX.7z:** Copy `HDXRTKExt_XXXXXXXXX.inf` to `Driver\UAD64\Realtek\ExtRtk_XXXX`.
+   - From **ThirdParty.7z:** Copy the `Dolby|DTS|A-Volute` folder to `Driver\UAD64\ThirdParty\`:
      - **Generic:** `HDXRTKExt_RTK_PC.inf`
-     - **Dolby Atmos:** `HDXRTKExt_DOLBY_PC.inf`/`Dolby`
-     - **DTS X Ultra:** `HDXRTKExt_XPERI4_PC.inf`/`DTS`
-     - **Nahimic:** `HDXRTKExt_AVO4_PC.inf`/`A-Volute`
+     - **Dolby Atmos:** `HDXRTKExt_DOLBY_PC.inf` and the `Dolby` folder.
+     - **DTS X Ultra:** `HDXRTKExt_XPERI4_PC.inf` and the `DTS` folder.
+     - **Nahimic:** `HDXRTKExt_AVO4_PC.inf` and the `A-Volute` folder.
 
-### Realtek APO1 or APO1 unlocked Legacy SPDIF DDL/DTS Setup
-1. **Delete:** `HDXRTKExt_APO2_RTK_PC.inf` from `Driver\UAD64\Realtek\ExtRtk_XXXX`.
+### Realtek APO1 or APO1 (Legacy) Unlocked SPDIF DDL/DTS
+1. **Delete:** Remove `HDXRTKExt_APO2_RTK_PC.inf` from `Driver\UAD64\Realtek\ExtRtk_XXXX`.
 2. **Extract and Copy:**
-   - **ExtRtk_XXXX.7z:** Copy `HDXRTKExt_APO1_XXXXXXXXX.inf` to `Driver\UAD64\Realtek\ExtRtk_XXXX`.
-   - **RealtekAPO_XXXX.7z/RealtekAPO_XXX_unlock.7z:** Copy `RealtekAPO_XXXX` or `RealtekAPO_XXX_unlock` to `Driver\UAD64\Realtek\`.
+   - From **ExtRtk_XXXX.7z:** Copy `HDXRTKExt_APO1_XXXXXXXXX.inf` to `Driver\UAD64\Realtek\ExtRtk_XXXX`.
+   - From **RealtekAPO_XXXX.7z** or **RealtekAPO_XXX_unlock.7z:** Copy `RealtekAPO_XXXX` or `RealtekAPO_XXX_unlock` to `Driver\UAD64\Realtek\`.
 
 ## Troubleshooting
-- **DTS Service:** Restart **DtsApo4Service** multiple times if needed. ~
+- **DTS Service:** If encountering issues, restart the **DtsApo4Service** multiple times if necessary.
 
 [DriverStoreExplorer]: https://github.com/lostindark/DriverStoreExplorer
