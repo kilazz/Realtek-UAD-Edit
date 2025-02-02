@@ -31,6 +31,6 @@
    - From **RealtekAPO_XXXX.7z** or **RealtekAPO_XXX_unlock.7z:** Copy `RealtekAPO_XXXX` or `RealtekAPO_XXX_unlock` to `Driver\UAD64\Realtek\`.
 
 ## Troubleshooting
-- **DTS Service:** If encountering issues, restart the **DtsApo4Service** multiple times if necessary.
+- **DTS Service:** If encountering issues, restart the **DtsApo4Service** multiple times if necessary. ~
 
 [DriverStoreExplorer]: https://github.com/lostindark/DriverStoreExplorer
