@@ -2,7 +2,7 @@
 
 ## Compatibility
 - **OS:** Windows 10/11 x64, version 19041 and above.
-- **Tested on:** Windows 11 build 27788, A620M GAMING X AX (ALC897), etc.
+- **Tested on:** A620M GAMING X AX (ALC897), etc.
 
 ## Removal
 1. **Uninstall:** Remove the Realtek Audio Driver and related packages using [Rapr][DriverStoreExplorer].
