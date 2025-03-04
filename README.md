@@ -2,7 +2,7 @@
 
 ## Compatibility
 - **OS:** Windows 10/11 x64, version 19041 and above.
-- **SoC:** ALC210-1220 ~
+- **SoC:** ALC210-ALC1220 ~
 - **Tested on:** A620M GAMING X AX (ALC897), etc.
 
 ## Removal
