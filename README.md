@@ -29,8 +29,5 @@
 2. **Extract and Copy:**
    - From **ExtRtk_XXXX.7z:** Copy `HDXRTKExt_APO1_XXXXXXXXX.inf` to `Driver\UAD64\Realtek\ExtRtk_XXXX`.
    - From **RealtekAPO_XXXX.7z** or **RealtekAPO_XXX_unlock.7z:** Copy `RealtekAPO_XXXX` or `RealtekAPO_XXX_unlock` to `Driver\UAD64\Realtek\`.
-
-## Troubleshooting
-- **DTS Service:** If encountering issues, restart the **DtsApo4Service** multiple times if necessary. ~
-
+   - 
 [DriverStoreExplorer]: https://github.com/lostindark/DriverStoreExplorer
