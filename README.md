@@ -26,7 +26,7 @@ This project provides custom drivers and utilities for configuring audio on syst
 1. Delete `RealtekAPO_XXXX` from `Driver\UAD64\Realtek\`.
 2. Copy `RealtekAPO_745` from **RealtekAPO_745_unlock.7z** to `Driver\UAD64\Realtek\`.
 ### Realtek APO2 Installation
-1. Delete `HDXRTKExt_APO1_RTK_PC.inf` and `RealtekAPO_XXXX` from `Driver\UAD64\Realtek\`.
+1. Delete `HDXRTKExt_APO1_RTK_PC.inf` and `RealtekAPO_XXXX` from `Driver\UAD64\Realtek\ExtRtk_XXXX` and `Driver\UAD64\Realtek\`.
 2. Copy:
    - From **ExtRtk_XXXX.7z:** `HDXRTKExt_APO2_XXXXXXXXX.inf` to `Driver\UAD64\Realtek\ExtRtk_XXXX`.
    - From **RealtekUAPO2_XXXX.7z:** `RealtekUAPO2_XXXX` to `Driver\UAD64\Realtek\`.
