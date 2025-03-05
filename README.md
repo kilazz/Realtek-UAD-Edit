@@ -2,7 +2,6 @@
 ## Description
 This project provides custom drivers and utilities for configuring audio on systems with Realtek chips (ALC210 - ALC1220). Supports Windows 10/11 x64 (Build 19041 or later).
 ## Features
-- Customizable installation for Generic, OEM, and specific audio enhancements.
 - Supports Dolby Atmos, DTS X Ultra, and Nahimic.
 - Legacy APO1 and modern APO2 driver support.
 - SPDIF DDL/DTS support for older systems.
