@@ -1,8 +1,6 @@
 # Realtek UAD Edit
-## Compatibility
-- **Operating System:** Windows 10/11 x64 (Build 19041 or later)
-- **Supported SoC:** ALC210 to ALC1220
-- **Tested on:** A620M GAMING X AX (ALC897)
+## Description
+This project provides custom drivers and utilities for configuring audio on systems with Realtek chips (ALC210 - ALC1220). Supports Windows 10/11 x64 (Build 19041 or later).
 ## Features
 - Customizable installation for Generic, OEM, and specific audio enhancements.
 - Supports Dolby Atmos, DTS X Ultra, and Nahimic.
@@ -19,7 +17,7 @@
 1. Delete `HDXRTKExt_APO1_RTK_PC.inf` from `Driver\UAD64\Realtek\ExtRtk_XXXX`.
 2. Copy:
    - From **ExtRtk_XXXX.7z:** `HDXRTKExt_XXXXXXXXXXXX.inf` to `Driver\UAD64\Realtek\ExtRtk_XXXX`.
-   - From **ThirdParty.7z:** Copy the appropriate folder (`Dolby`, `DTS`, or `A-Volute`) to `Driver\UAD64\ThirdParty\`.
+   - From **ThirdParty.7z:** the `Dolby`, `DTS`, or `A-Volute` folder to `Driver\UAD64\ThirdParty\`.
 #### Configuration Examples:
 - **Generic:** `HDXRTKExt_XXXX_RTK_PC.inf`
 - **Dolby Atmos:** `HDXRTKExt_XXXX_DOLBY_PC.inf` and the `Dolby` folder.
@@ -29,9 +27,8 @@
 1. Delete `RealtekAPO_XXXX` from `Driver\UAD64\Realtek\`.
 2. Copy `RealtekAPO_745` from **RealtekAPO_745_unlock.7z** to `Driver\UAD64\Realtek\`.
 ### Realtek APO2 Installation
-1. Delete `HDXRTKExt_APO1_RTK_PC.inf` from `Driver\UAD64\Realtek\ExtRtk_XXXX`.
-2. Delete `RealtekAPO_XXXX` from `Driver\UAD64\Realtek\`.
-3. Copy:
+1. Delete `HDXRTKExt_APO1_RTK_PC.inf` and `RealtekAPO_XXXX` from `Driver\UAD64\Realtek\`.
+2. Copy:
    - From **ExtRtk_XXXX.7z:** `HDXRTKExt_APO2_XXXXXXXXX.inf` to `Driver\UAD64\Realtek\ExtRtk_XXXX`.
    - From **RealtekUAPO2_XXXX.7z:** `RealtekUAPO2_XXXX` to `Driver\UAD64\Realtek\`.
    - From **OVWrap2_XX.7z:** `OVWrap2_XX` to `Driver\UAD64\Realtek\`.
