@@ -1,13 +1,13 @@
 # Realtek UAD Edit
 ## Description
-This project provides custom drivers and utilities for configuring audio on systems with Realtek chips (ALC210 - ALC1220). Supports Windows 10/11 x64 (Build 19041 or later).
+This project provides custom drivers for Realtek chips (ALC210 - ALC1220). Supports Windows 10/11 x64 (Build 19041 or later).
 ## Features
 - Supports Dolby Atmos, DTS X Ultra, and Nahimic.
 - APO1 and APO2 driver support.
 - SPDIF DDL/DTS support for older systems.
 ## Installation
 ### Prerequisites
-1. Uninstall existing Realtek drivers using [Rapr][DriverStoreExplorer].
+1. Uninstall existing Realtek drivers using [RAPR][DriverStoreExplorer].
 2. Restart your PC.
 ### Generic/OEM Installation
 1. Run `Install.cmd` or `Install_inf.cmd`.
@@ -26,7 +26,7 @@ This project provides custom drivers and utilities for configuring audio on syst
 1. Delete `RealtekAPO_XXXX` from `Driver\UAD64\Realtek\`.
 2. Copy `RealtekAPO_745` from **RealtekAPO_745_unlock.7z** to `Driver\UAD64\Realtek\`.
 ### Realtek APO2 Installation
-1. Delete `HDXRTKExt_APO1_RTK_PC.inf` and `RealtekAPO_XXXX` from `Driver\UAD64\Realtek\`.
+1. Delete `HDXRTKExt_APO1_XXXXXXXXX.inf` and `RealtekAPO_XXXX` from `Driver\UAD64\Realtek\`.
 2. Copy:
    - From **ExtRtk_XXXX.7z:** `HDXRTKExt_APO2_XXXXXXXXX.inf` to `Driver\UAD64\Realtek\ExtRtk_XXXX`.
    - From **RealtekUAPO2_XXXX.7z:** `RealtekUAPO2_XXXX` to `Driver\UAD64\Realtek\`.
