@@ -5,6 +5,7 @@
 ## Features
 - Dolby Atmos, DTS X Ultra, Nahimic support.
 - APO1, APO2, and APO1 Legacy (SPDIF DDL/DTS) support.
+- Enhancements Tab support.
 ## Installation
 ### Prerequisites
 1. Uninstall existing Realtek drivers using [RAPR][DriverStoreExplorer].
