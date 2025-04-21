@@ -8,15 +8,15 @@
 ## Installation
 ### Prerequisites
 1. Uninstall existing Realtek drivers using [RAPR][DriverStoreExplorer].
-2. Restart your PC.
+2. Restart PC.
 ### Generic/OEM Installation
 1. Run `Install.cmd` or `Install_inf.cmd`.
 2. Restart PC.
 ### OEM-Specific Installation
 1. Remove `HDXRTKExt_APO1_RTK_PC.inf` from `Driver\UAD64\Realtek\ExtRtk_XXXX\`.
 2. Copy:
-   - From **ExtRtk_XXXX.7z**: `HDXRTKExt_XXXXXXXXXXXX.inf` to `Driver\UAD64\Realtek\ExtRtk_XXXX\`.
-   - From **ThirdParty.7z**: `Dolby`, `DTS`, `A-Volute` folder to `Driver\UAD64\ThirdParty\`.
+   - From **ExtRtk_XXXX.7z:** `HDXRTKExt_XXXXXXXXXXXX.inf` to `Driver\UAD64\Realtek\ExtRtk_XXXX\`.
+   - From **ThirdParty.7z:** `Dolby`, `DTS`, `A-Volute` folder to `Driver\UAD64\ThirdParty\`.
 3. Configuration Examples:
    - **Generic:** `HDXRTKExt_XXXX_RTK_PC.inf`
    - **Dolby Atmos:** `HDXRTKExt_XXXX_DOLBY_PC.inf` + `Dolby` folder.
