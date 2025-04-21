@@ -1,7 +1,7 @@
 # Realtek UAD Edit
 ## Description
 - This project provides custom drivers for Realtek chips (ALC210 - ALC1220).
-- Supports Windows 10/11 x64 (Build 19041 or later).
+- Windows 10/11 x64 (Build 19041 or later) support.
 ## Features
 - Dolby Atmos, DTS X Ultra, Nahimic support.
 - APO1, APO2, and APO1 Legacy (SPDIF DDL/DTS) support.
