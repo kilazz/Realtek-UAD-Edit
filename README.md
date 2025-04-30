@@ -8,7 +8,7 @@
 - Enhancements Tab support.
 ## Installation
 ### Prerequisites
-1. Uninstall existing Realtek drivers using [RAPR][DriverStoreExplorer].
+1. Uninstall existing Realtek Audio drivers using [RAPR][DriverStoreExplorer].
 2. Restart PC.
 ### Generic/OEM Installation
 1. Run `Install.cmd` or `Install_inf.cmd`.
