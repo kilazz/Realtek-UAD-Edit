@@ -11,7 +11,7 @@
 1. Uninstall existing Realtek Audio drivers using [RAPR][DriverStoreExplorer].
 2. Restart PC.
 ### Generic/OEM Installation
-1. Run `Install.cmd` or `Install_inf.cmd`.
+1. Run `RealtekUADManager.ps1`.
 2. Restart PC.
 ### OEM-Specific Installation
 1. Remove `HDXRTKExt_APO1_RTK_PC.inf` from `Driver\UAD64\Realtek\ExtRtk_XXXX\`.
@@ -25,7 +25,7 @@
    - **Nahimic:** `HDXRTKExt_XXXX_AVO4_PC.inf` + `A-Volute` folder.
 ### Realtek APO1 Legacy (SPDIF DDL/DTS)
 1. Remove `RealtekAPO_XXXX` from `Driver\UAD64\Realtek\`.
-2. Copy `RealtekAPO_745` from **RealtekAPO_745_unlock.7z** to `Driver\UAD64\Realtek\`.
+2. Copy `RealtekAPO_745` from **RealtekAPO_SPDIF51_745.7z** to `Driver\UAD64\Realtek\`.
 ### Realtek APO2 Installation
 1. Remove `HDXRTKExt_APO1_XXXXXXXXX.inf` and `RealtekAPO_XXXX` from `Driver\UAD64\Realtek\`.
 2. Copy:
