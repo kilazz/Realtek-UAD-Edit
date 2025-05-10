@@ -17,11 +17,12 @@
 4. Restart PC.
 ## Installation via Setup.exe
 ### OEM-Specific Configuration
-1. **Generic**: `HDXRTKExt_APO1_RTK_PC.inf` or `HDXRTKExt_APO2_RTK_PC.inf`.
-2. **Dolby Atmos**: `HDXRTKExt_APO1_DOLBY_PC.inf` or `HDXRTKExt_APO2_DOLBY_PC.inf` + `Dolby` folder.
-3. **DTS X Ultra**: `HDXRTKExt_APO1_XPERI4_PC.inf` or `HDXRTKExt_APO2_XPERI4_PC.inf` + `DTS` folder.
-4. **Nahimic**: `HDXRTKExt_APO1_AVO4_PC.inf` or `HDXRTKExt_APO2_AVO4_PC.inf` + `A-Volute` folder.
-5. **Remove all unnecessary**.
+1. **ExtRtk_XXXX** or **ExtRtkTest_XXXX** 
+2. **Generic**: `HDXRTKExt_APO1_RTK_PC.inf` or `HDXRTKExt_APO2_RTK_PC.inf`.
+3. **Dolby Atmos**: `HDXRTKExt_APO1_DOLBY_PC.inf` or `HDXRTKExt_APO2_DOLBY_PC.inf` + `Dolby` folder.
+4. **DTS X Ultra**: `HDXRTKExt_APO1_XPERI4_PC.inf` or `HDXRTKExt_APO2_XPERI4_PC.inf` + `DTS` folder.
+5. **Nahimic**: `HDXRTKExt_APO1_AVO4_PC.inf` or `HDXRTKExt_APO2_AVO4_PC.inf` + `A-Volute` folder.
+6. **Remove all unnecessary**.
 ### Realtek APO1 Legacy (SPDIF DDL/DTS)
 1. Replace `RealtekAPO_XXXX` with `RealtekAPO_745` in `Driver\UAD64\Realtek\`.
 
