@@ -12,8 +12,9 @@
 2. Restart PC.
 ### Generic/OEM Installation
 1. Run `RealtekUADInstaller.ps1`.
-2. Choose the required configuration.
-3. Restart PC.
+2. Remove Drivers.
+3. Install the required configuration.
+4. Restart PC.
 ## Installation via Setup.exe
 ### OEM-Specific Configuration
 1. **Generic**: `HDXRTKExt_APO1_RTK_PC.inf` or `HDXRTKExt_APO2_RTK_PC.inf`.
