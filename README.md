@@ -14,7 +14,7 @@
 1. Run `RealtekUADInstaller.ps1`.
 2. Choose the required configuration.
 3. Restart PC.
-##
+## Setup.exe
 ### OEM-Specific Installation
 1. Remove `HDXRTKExt_APO1_RTK_PC.inf` from `Driver\UAD64\Realtek\ExtRtk_XXXX\`.
 2. Copy:
