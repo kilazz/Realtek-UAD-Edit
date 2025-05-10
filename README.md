@@ -12,7 +12,8 @@
 2. Restart PC.
 ### Generic/OEM Installation
 1. Run `RealtekUADManager.ps1`.
-2. Restart PC.
+2. Choose the required configuration.
+3. Restart PC.
 ##
 ### OEM-Specific Installation
 1. Remove `HDXRTKExt_APO1_RTK_PC.inf` from `Driver\UAD64\Realtek\ExtRtk_XXXX\`.
