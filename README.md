@@ -16,8 +16,8 @@
 3. Install the required configuration.
 4. Restart PC.
 ## Installation via Setup.exe
-### OEM-Specific Configuration
-1. **ExtRtk_XXXX** or **ExtRtkTest_XXXX** 
+### Configuration example
+1. **ExtRtk_XXXX** or **ExtRtkTest_XXXX** .
 2. **Generic**: `HDXRTKExt_APO1_RTK_PC.inf` or `HDXRTKExt_APO2_RTK_PC.inf`.
 3. **Dolby Atmos**: `HDXRTKExt_APO1_DOLBY_PC.inf` or `HDXRTKExt_APO2_DOLBY_PC.inf` + `Dolby` folder.
 4. **DTS X Ultra**: `HDXRTKExt_APO1_XPERI4_PC.inf` or `HDXRTKExt_APO2_XPERI4_PC.inf` + `DTS` folder.
