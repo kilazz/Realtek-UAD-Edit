@@ -4,7 +4,8 @@
 - Windows 10/11 x64 (Build 19041 or later) support.
 ## Features
 - Generic, DolbyAtmos, DTSXUltra, Nahimic support.
-- APO1, APO2, and APO1 Legacy (SPDIF DDL/DTS) support.
+- APO1 and APO2 support.
+- APO1 Legacy SPDIF DDL/DTS support. (except ExtRtkTest)
 - Enhancements Tab support. (except ExtRtkTest)
 ## Installation
 ### Prerequisites
