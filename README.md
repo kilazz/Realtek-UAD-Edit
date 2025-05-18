@@ -5,7 +5,7 @@
 ## Features
 - Generic, DolbyAtmos, DTSXUltra, Nahimic support.
 - APO1, APO2, and APO1 Legacy (SPDIF DDL/DTS) support.
-- Enhancements Tab (except ExtRtkTest) support.
+- Enhancements Tab support. (except ExtRtkTest)
 ## Installation
 ### Prerequisites
 1. Uninstall existing Realtek Audio drivers using [RAPR][DriverStoreExplorer].
