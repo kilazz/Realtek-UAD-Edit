@@ -12,7 +12,7 @@
 1. Uninstall existing Realtek Audio drivers using [RAPR][DriverStoreExplorer].
 2. Restart PC.
 ### Generic/OEM Installation
-1. Run `RealtekUADInstaller.ps1`.
+1. Run `RealtekUADInstaller.cmd`.
 2. Remove Drivers.
 3. Install the required configuration.
 4. Restart PC.
