@@ -36,6 +36,7 @@
 - Replace `RealtekAPO_XXXX` with `RealtekAPO_745` in `Driver\UAD64\Realtek\`.
 
 ## Troubleshooting
+- Ensure the RtkAudUService64.exe service is enabled in your system's startup programs. Restart your PC if you change this setting.
 - If DTS functionality is not working after installation, restart the DTS service.
 
 [DriverStoreExplorer]: https://github.com/lostindark/DriverStoreExplorer
