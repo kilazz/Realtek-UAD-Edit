@@ -13,7 +13,7 @@
 ## Installation
 
 ### Prerequisites
-1. Uninstall existing Realtek Audio drivers using [DriverStoreExplorer (RAPR)][DriverStoreExplorer].
+1. Uninstall existing Realtek Audio drivers using [RAPR][DriverStoreExplorer].
 2. Restart PC.
 
 ### Generic/OEM Installation
@@ -36,6 +36,6 @@
 - Replace `RealtekAPO_XXXX` with `RealtekAPO_745` in `Driver\UAD64\Realtek\`.
 
 ## Troubleshooting
-- If DTS functionality is not working after installation, restart the corresponding DTS service.
+- If DTS functionality is not working after installation, restart the DTS service.
 
 [DriverStoreExplorer]: https://github.com/lostindark/DriverStoreExplorer
