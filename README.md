@@ -6,6 +6,8 @@
 
 ## Features
 - Generic, DolbyAtmos, DTSXUltra, Nahimic support.
+- APO1 and APO2 support.
+- APO1 Legacy SPDIF DDL/DTS support. (except ExtRtkASPM)
 - Enhancements Tab support. (except ExtRtkASPM)
 
 ## Installation
@@ -24,11 +26,14 @@
 
 ### Configuration example
 1. **ExtRtk_XXXX** or **ExtRtkTest_XXXX**.
-2. **Generic**: `HDXRTKExt_APO2_RTK_PC.inf`.
-3. **Dolby Atmos**: `HDXRTKExt_APO2_DOLBY_PC.inf` + `Dolby` folder.
-4. **DTS X Ultra**: `HDXRTKExt_APO2_XPERI4_PC.inf` + `DTS` folder.
-5. **Nahimic**: `HDXRTKExt_APO2_AVO4_PC.inf` + `A-Volute` folder.
+2. **Generic**: `HDXRTKExt_APO1_RTK_PC.inf` or `HDXRTKExt_APO2_RTK_PC.inf`.
+3. **Dolby Atmos**: `HDXRTKExt_APO1_DOLBY_PC.inf` or `HDXRTKExt_APO2_DOLBY_PC.inf` + `Dolby` folder.
+4. **DTS X Ultra**: `HDXRTKExt_APO1_XPERI4_PC.inf` or `HDXRTKExt_APO2_XPERI4_PC.inf` + `DTS` folder.
+5. **Nahimic**: `HDXRTKExt_APO1_AVO4_PC.inf` or `HDXRTKExt_APO2_AVO4_PC.inf` + `A-Volute` folder.
 6. **Remove all unnecessary**.
+
+### Realtek APO1 Legacy (SPDIF DDL/DTS)
+- Replace `RealtekAPO_XXXX` with `RealtekAPO_745` in `Driver\UAD64\Realtek\`.
 
 ## Troubleshooting
 - Ensure the RtkAudUService64.exe service is enabled in your system's startup programs. Restart your PC if you change this setting.
