@@ -7,8 +7,8 @@
 ## Features
 - Generic, DolbyAtmos, DTSXUltra, Nahimic support.
 - APO1 and APO2 support.
-- APO1 Legacy SPDIF DDL/DTS support. (except ExtRtkASPM)
-- Enhancements Tab support. (except ExtRtkASPM)
+- APO1 Legacy SPDIF DDL/DTS support. (except ExtRtkAPM)
+- Enhancements Tab support. (except ExtRtkAPM)
 
 ## Installation
 
