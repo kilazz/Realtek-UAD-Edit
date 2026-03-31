@@ -24,10 +24,10 @@
 
 ### Configuration example
 1. **HDXRTKExt_XXXX** or **HDXRTKExt_XXXX_MSAPO**.
-2. **Generic**: `HDXRTKExt_APO2_RTK_PC_EAA.inf`.
-3. **Dolby Atmos**: `HDXRTKExt_APO2_DOLBY_PC_EAA.inf` + `Dolby` folder.
-4. **DTS X Ultra**: `HDXRTKExt_APO2_XPERI4_PC_EAA.inf` + `DTS` folder.
-5. **Nahimic**: `HDXRTKExt_APO2_AVO4_PC_EAA.inf` + `A-Volute` folder.
+2. **Generic**: `HDXRTKExt_APO2_RTK_EAA.inf`.
+3. **Dolby Atmos**: `HDXRTKExt_APO2_DOLBY_EAA.inf` + `Dolby` folder.
+4. **DTS X Ultra**: `HDXRTKExt_APO2_XPERI4_EAA.inf` + `DTS` folder.
+5. **Nahimic**: `HDXRTKExt_APO2_AVO4_EAA.inf` + `A-Volute` folder.
 6. **Remove all unnecessary**.
 
 ## Troubleshooting
