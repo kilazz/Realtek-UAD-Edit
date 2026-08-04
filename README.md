@@ -5,7 +5,7 @@
 - Windows 10/11 x64 (Build 19044 or later) support.
 
 ## Features
-- Generic, DolbyAtmos, DTSXUltra, Nahimic support.
+- Generic, Nahimic, DolbyAtmos, DTSXUltra, DTSVirtualX support.
 - Minimal & Default installation for Generic.
 - Enhancements Tab support (`_MSAPO`).
 
@@ -24,14 +24,18 @@
 ### Installation via Setup.exe
 *Delete unwanted folders under `UAD64\ThirdParty` and excess `ExtRtk` INF files before running `setup.exe`.*
 - **Generic**: `HDXRTKExt_APO2_RTK_EAA.inf`.
-- **DolbyAtmos**: `HDXRTKExt_APO2_DOLBY_EAA.inf` + `Dolby` folder.
-- **DTSXUltra**: `HDXRTKExt_APO2_XPERI4_EAA.inf` + `DTS` folder.
 - **Nahimic**: `HDXRTKExt_APO2_AVO4_EAA.inf` + `A-Volute` folder.
+- **DolbyAtmos**: `HDXRTKExt_APO2_DOLBY_EAA.inf` + `Dolby` folder.
+- **DTSXUltra**: `HDXRTKExt_APO2_DTS4X_EAA.inf` + `DTS/DTS_APO4X` folder.
+- **DTSVirtualX**: `HDXRTKExt_APO2_DTS5X_EAA.inf` + `DTS/DTS_APO5X` folder.
 
 ## Troubleshooting
 - **Windows Update**: Use **Toggle WU Driver Updates** and **Reset WU Cache & Ghost Devices** in the installer menu.
-- **No Control Panel**: Ensure `RtkAudUService64.exe` is running at startup. Restart your PC if you change this setting.
-- **DTS Issues**: If DTS does not work, restart the DTS service a few times.
 - **Voice Call Volume Drop**: Win+R -> `mmsys.cpl` -> Communications tab -> Select "Do nothing".
+- **No Control Panel**: Ensure `RtkAudUService64.exe` is running at startup. Restart your PC if you change this setting.
+- **DTS Issues**: If DTS app shows an error, restart "DTS Hub Service" (for Virtual:X) or "DtsApo4Service" (for DTS:X Ultra) in Task Manager or Services.
+
+## Store Applications
+- After installing the driver, open the `.url` shortcuts inside the `Apps` folder to install the corresponding control panels from the Microsoft Store.
 
 [DriverStoreExplorer]: https://github.com/lostindark/DriverStoreExplorer
