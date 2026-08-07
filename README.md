@@ -33,7 +33,7 @@
 - **Windows Update**: Use **Toggle WU Driver Updates** and **Reset WU Cache & Ghost Devices** in the installer menu.
 - **Voice Call Volume Drop**: Win+R -> `mmsys.cpl` -> Communications tab -> Select "Do nothing".
 - **No Control Panel**: Ensure `RtkAudUService64.exe` is running at startup. Restart your PC if you change this setting.
-- **DTS Issues**: If DTS app shows an error, restart `DTS Hub Service` (for Virtual:X) or `DtsApo4Service` (for DTS:X Ultra) in Task Manager or Services.
+- **DTS Issues**: If DTS app shows an error, restart `DTS Hub Service` or `DtsApo4Service` in Task Manager or Services.
 
 ## Store Applications
 - After installing the driver, open the `.url` shortcuts inside the `Apps` folder to install the corresponding control panels from the Microsoft Store.
