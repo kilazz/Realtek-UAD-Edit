@@ -22,18 +22,19 @@
 4. Restart PC.
 
 ### Installation via Setup.exe
-*Delete unwanted folders under `UAD64\ThirdParty` and excess `ExtRtk` INF files before running `setup.exe`.*
-- **Generic**: `HDXRTKExt_APO2_RTK_EAA.inf`.
-- **Nahimic**: `HDXRTKExt_APO2_AVO4_EAA.inf` + `A-Volute` folder.
-- **DolbyAtmos**: `HDXRTKExt_APO2_DOLBY_EAA.inf` + `Dolby` folder.
-- **DTSXUltra**: `HDXRTKExt_APO2_DTS4X_EAA.inf` + `DTS/DTS_APO4X` folder.
-- **DTSVirtualX**: `HDXRTKExt_APO2_DTS5X_EAA.inf` + `DTS/DTS_APO5X` folder.
+Choose **ONE** configuration below.
+Keep only its corresponding files/folders and **delete all other** `ExtRtk` INF files and unused folders under `UAD64\ThirdParty` before running `setup.exe`:
+- **Generic**: `HDXRTKExt_APO2_RTK_EAA.inf`
+- **Nahimic**: `HDXRTKExt_APO2_AVO4_EAA.inf` + `A-Volute` folder
+- **DolbyAtmos**: `HDXRTKExt_APO2_DOLBY_EAA.inf` + `Dolby` folder
+- **DTSXUltra**: `HDXRTKExt_APO2_DTS4X_EAA.inf` + `DTS\DTS_APO4X` folder
+- **DTSVirtualX**: `HDXRTKExt_APO2_DTS5X_EAA.inf` + `DTS\DTS_APO5X` folder
 
 ## Troubleshooting
+- **No Control Panel**: Ensure `RtkAudUService64.exe` is running at startup. Restart your PC if you change this setting.
+- **Audio App Issues**: If an app shows an error, restart its corresponding service (`DolbyDAXAPI`, `DtsApo4Service`, `DtsHubService`) in Task Manager or Services.
 - **Windows Update**: Use **Toggle WU Driver Updates** and **Reset WU Cache & Ghost Devices** in the installer menu.
 - **Voice Call Volume Drop**: Win+R -> `mmsys.cpl` -> Communications tab -> Select "Do nothing".
-- **No Control Panel**: Ensure `RtkAudUService64.exe` is running at startup. Restart your PC if you change this setting.
-- **DTS Issues**: If DTS app shows an error, restart `DTS Hub Service` or `DtsApo4Service` in Task Manager or Services.
 
 ## Store Applications
 - After installing the driver, open the `.url` shortcuts inside the `Apps` folder to install the corresponding control panels from the Microsoft Store.
