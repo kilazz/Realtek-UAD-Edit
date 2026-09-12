@@ -1,39 +1,40 @@
-# Realtek UAD Edit
+# Realtek UAD | STRIX SOAR/RAID PRO/DLX Edit
 
 ## Description
-- Unofficial drivers for Realtek Audio chips (ALC210 - ALC1220).
+- Unofficial drivers for Realtek Audio chips (ALC210 - ALC1220) and ASUS Strix SOAR/RAID PRO/DLX.
 - Windows 10/11 x64 (Build 19044 or later) support.
 
 ## Features
-- Generic, Nahimic, DolbyAtmos, DTSXUltra, DTSVirtualX support.
-- Minimal & Default installation for Generic.
+- Default/Generic, Nahimic, DolbyAtmos, DTSXUltra, DTSVirtualX support.
+- Minimal/Default installation for Generic (Realtek).
 - Enhancements Tab support (`_MSAPO`).
 
 ## Installation
 
 ### Prerequisites
-1. Uninstall existing Realtek drivers using [RAPR][DriverStoreExplorer].
+1. Uninstall existing `Realtek`,`nhAsusSC150/nhAsusSC200.inf` drivers using [RAPR][DriverStoreExplorer].
 2. Restart PC.
 
-### Generic/OEM Installation
-1. Run `RealtekUADInstaller.cmd` as Administrator (certificates will be imported automatically).
-2. Select **Smart Clean** or **Force Clean** to remove old driver leftovers.
-3. Select **Install Driver Set** and choose configuration.
-4. Restart PC.
+### For Realtek Generic/OEM Installation
+1. Run `AudioInstaller.cmd` as Administrator (certificates will be imported automatically).
+2. Select **`Realtek UAD Audio`**.
+3. Select **Smart Clean** or **Force Clean** to remove old driver leftovers.
+4. Select **Install Driver Set** and choose configuration.
+5. Restart PC.
 
-### Installation via Setup.exe
-Choose **ONE** configuration below.
-Keep only its corresponding files/folders and **delete all other** `ExtRtk` INF files and unused folders under `UAD64\ThirdParty` before running `setup.exe`:
-- **Generic**: `HDXRTKExt_APO2_RTK_EAA.inf`
-- **Nahimic**: `HDXRTKExt_APO2_AVO4_EAA.inf` + `A-Volute` folder
-- **DolbyAtmos**: `HDXRTKExt_APO2_DOLBY_EAA.inf` + `Dolby` folder
-- **DTSXUltra**: `HDXRTKExt_APO2_DTS4X_EAA.inf` + `DTS\DTS_APO4X` folder
-- **DTSVirtualX**: `HDXRTKExt_APO2_DTS5X_EAA.inf` + `DTS\DTS_APO5X` folder
+### For ASUS Strix Default/OEM Installation
+1. Install `ASMedia_USB3x_1.16.61.1` (optional: High DPC Latency. Use Microsoft driver) ~
+2. Install `Strix_Soar_Setup_1.1.23`.
+3. Run `AudioInstaller.cmd` as Administrator.
+4. Select **`ASUS Strix Sound Card`**.
+5. Select **Smart Clean** or **Force Clean** to remove old driver leftovers.
+6. Select **Install Driver Set** and choose configuration.
+7. Restart PC.
 
 ## Troubleshooting
 - **No Control Panel**: Ensure `RtkAudUService64.exe` is running at startup. Restart your PC if you change this setting.
-- **Audio App Issues**: If an app shows an error, restart its corresponding service (`DolbyDAXAPI`, `DtsApo4Service`, `DtsHubService`) in Task Manager or Services.
-- **Windows Update**: Use **Toggle WU Driver Updates** and **Reset WU Cache & Ghost Devices** in the installer menu.
+- **Audio App Issues**: If an app shows an error, restart its corresponding service (`DolbyDAXAPI`, `DtsApo4Service`, `DtsHubService`, `NahimicService`) in Task Manager or Services.
+- **Windows Update**: Use **Toggle Windows Update Driver Downloads** and **Reset WU Cache & Clean Ghost Devices** in the installer menu.
 - **Voice Call Volume Drop**: Win+R -> `mmsys.cpl` -> Communications tab -> Select "Do nothing".
 
 ## Store Applications
