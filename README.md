@@ -11,21 +11,20 @@
 
 ## Installation
 
-### Prerequisites
-1. Uninstall existing `Realtek`,`nhAsusSC150/nhAsusSC200.inf` drivers using [RAPR][DriverStoreExplorer].
+### For Realtek:
+1. Uninstall existing Realtek drivers using [RAPR][DriverStoreExplorer].
 2. Restart PC.
+3. Run **`AudioInstaller.cmd`** as Administrator.
+4. Select **`Realtek UAD Audio`**.
+5. Select **Smart Clean** or **Force Clean** to remove old driver leftovers.
+6. Select **Install Driver Set** and choose configuration.
+7. Restart PC.
 
-### For Realtek Generic/OEM Installation
-1. Run `AudioInstaller.cmd` as Administrator (certificates will be imported automatically).
-2. Select **`Realtek UAD Audio`**.
-3. Select **Smart Clean** or **Force Clean** to remove old driver leftovers.
-4. Select **Install Driver Set** and choose configuration.
-5. Restart PC.
-
-### For ASUS Strix Default/OEM Installation
+### For ASUS Strix:
 1. Install `ASMedia_USB3x_1.16.61.1` (optional: High DPC Latency. Use Microsoft driver) ~
 2. Install `Strix_Soar_Setup_1.1.23`.
-3. Run `AudioInstaller.cmd` as Administrator.
+3. Uninstall existing `nhAsusSC150/nhAsusSC200.inf` drivers using [RAPR][DriverStoreExplorer].
+4. Run **`AudioInstaller.cmd`** as Administrator.
 4. Select **`ASUS Strix Sound Card`**.
 5. Select **Smart Clean** or **Force Clean** to remove old driver leftovers.
 6. Select **Install Driver Set** and choose configuration.
