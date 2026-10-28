@@ -27,7 +27,7 @@ Unofficial audio driver package.
 7. Restart PC.
 
 ### For ASUS Strix:
-1. Install `ASMedia_USB3x_1.16.61.1` (optional: High DPC Latency. Use Microsoft driver) ~
+1. Install `ASMedia_USB3x_1.16.61.1` (High DPC Latency.)
 2. Install `Strix_Soar_Setup_1.1.23`.
 3. Uninstall existing `nhAsusSC150/nhAsusSC200.inf` drivers using [RAPR][DriverStoreExplorer].
 4. Run `AudioInstaller.cmd` as Administrator.
